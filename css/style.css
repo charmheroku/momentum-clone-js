@@ -1,0 +1,104 @@
+.hidden {
+  display: none;
+}
+
+.todo {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#bgImage{
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    z-index:-5;
+    filter: brightness(50%);
+}
+
+#clock{
+  height:150px;
+  font-size:5rem;
+  margin:10px;
+  color:white;    
+}
+
+#greeting{
+  color: white;
+  font-weight: 400;
+  font-size:2rem;
+}
+
+#todo-form input{
+  text-align: center;
+  color:rgb(138, 138, 138);
+  font-size:24px;
+  width: 540px;
+  height:40px;
+  background-color: rgb(255, 255, 255);
+  font-weight: 500;
+  border:none;
+  transition: all, 0.4s;
+  border-radius: 15px;
+
+}
+
+#todo-list li{
+  list-style: none;
+  color: white;
+  margin-top:40px;
+  margin-bottom:50px;
+  font-size:24px;
+  width:540px;
+  margin: 0 auto;
+}
+
+#login-form input:first-child{
+  text-align: center;
+  color:rgb(32, 32, 32);
+  font-size:1.3rem;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 240px;
+  background-color: rgba(255,255,255);
+  border:none;
+  transition: all, 0.4s;
+}
+
+#todo-list button{
+  margin-left:10px;
+  background-color:rgba(255,255,255,0);
+  outline: none;
+  color:white;
+  font-weight: 700;
+  width:30px;
+  height:30px;
+  border:none;
+  font-size:1.2rem;
+}
+#todo-list button:hover{
+  cursor: pointer;
+}
+
+#quote {
+    text-align: center;
+    position:fixed;
+    bottom:20px;
+    margin-left: 36px;
+    font: size 55px;;
+    font-weight: 400;
+    color:rgba(255,255,255);
+}
+
+#quote :nth-child(2){
+  font: size 20px;;
+  font-weight: 200;
+  color:rgba(255,255,255,0.8);
+}
